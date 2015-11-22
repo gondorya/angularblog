@@ -1,7 +1,10 @@
 angular.module('app.controllers', [
+		'ui.bootstrap',
 		'app.directives'
 	])
 	.controller('PostController', ['$scope', '$http', function($scope, $http){
+		$scope.myInterval = 5000;
+    	$scope.slides = [];
 		$http.get('data/posts.json').success(function(data){
 			$scope.posts = data;
 		})		
@@ -11,3 +14,4 @@ angular.module('app.controllers', [
 			$scope.post = data[$routeParams.id];
 		})
 	}]);
+

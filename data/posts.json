@@ -2,16 +2,19 @@
 	{
 		"title": "First post",
 		"exerpt": "Lorem ipsum",
+		"image": "img/baker.jpg",
 		"content": "Lorem ipsum Lorem Lorem "
 	},
 	{
 		"title": "Second post",
 		"exerpt": "Lorem ipsum",
+		"image": "img/construction.jpg",
 		"content": "Lorem ipsum Lorem Lorem "
 	},
 	{
 		"title": "Third post",
 		"exerpt": "Lorem ipsum",
+		"image": "img/film.jpg",
 		"content": "Lorem ipsum Lorem Lorem "
 	}
 ]
