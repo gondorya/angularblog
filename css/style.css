@@ -1,0 +1,11 @@
+html {
+	min-height: 100%;
+	position: relative; 
+}
+
+body {
+	height: 100%;
+	width:100vw;
+	overflow: hidden;
+	background-color: #f0f0f0;
+}
